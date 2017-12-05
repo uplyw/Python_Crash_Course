@@ -39,3 +39,11 @@ print("python")
 print("\tpython")
 
 
+# 清除多余空白
+## 清除开头空白，lstrip()
+## 清除结尾空白，rstrip()
+## 清除两头空白，strip()
+message1 = "python "
+print(message1.rstrip())
+
+
