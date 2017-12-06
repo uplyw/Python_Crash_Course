@@ -47,3 +47,8 @@ message1 = "python "
 print(message1.rstrip())
 
 
+# 单引号中如果使用单个单引号，会导致语法错误
+
+
+
+
