@@ -26,3 +26,4 @@ print(fruits)
 print(new_fruits)
 
 #  ！！！ 不能直接使用赋值的方法复制列表
+# new_fruits = fruits   是错误的不能得到一个新列表！
