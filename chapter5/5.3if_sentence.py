@@ -35,4 +35,10 @@ print('your admission cost is $' + str(price) + '.')
 
 # if-elif-else只能判断一个条件  一个条件成立后跳出表达式
 # 但是有时我们要测试多个条件并使用
-fruits =  
+fruits =  ['apple','banana']
+if 'apple' in fruits:
+	print('heihei')
+if 'pear' in fruits:
+	print('xixi')
+if 'banana' in fruits:
+	print('haha')
