@@ -68,3 +68,32 @@ for username,userinfo in users.items():
 	print('\nusername:' + username)
 	print('full name :' + userinfo['first'] + ' ' + userinfo['last'])
 	print('location:' + userinfo['location'])
+
+
+# 练习
+userinfos_0 = {
+	'firstname':'zhang',
+	'lastname':'san',
+	'age':18,
+	'city':'beijing',
+}
+userinfos_1 = {
+	'firstname':'li',
+	'lastname':'si',
+	'age':20,
+	'city':'shanghai',
+}
+userinfos_2 = {
+	'firstname':'wang',
+	'lastname':'er',
+	'age':24,
+	'city':'shenzhen',
+}
+userinfos_3 = {
+	'firstname':'ma',
+	'lastname':'zi',
+	'age':21,
+	'city':'guangzhou',
+}
+peoples = [userinfos_0,userinfos_1,userinfos_2,userinfos_3,]
+print(peoples)
