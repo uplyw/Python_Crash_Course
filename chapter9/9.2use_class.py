@@ -122,7 +122,6 @@ one_user.greet_user()
 two_user = User('han','meimei',13,'woman')
 print(two_user.describe_user())
 two_user.greet_user()
-
 one_user.increment_login_attments(1)
 one_user.increment_login_attments(1)
 one_user.increment_login_attments(1)
